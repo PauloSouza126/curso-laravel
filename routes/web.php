@@ -16,8 +16,6 @@ Route::middleware(['auth'])->group(function (){
     Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
 });
 
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

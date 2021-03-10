@@ -31,6 +31,7 @@
         <a href="{{ route('posts.edit', $post->id) }}">Edite</a>
     ]
     </p>
+
 @endforeach
 
 <hr>
